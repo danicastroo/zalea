@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://danicastroo.github.io/zalea/sitemap.xml
+
+# Crawl-delay (optional, respected by some bots)
+Crawl-delay: 10
