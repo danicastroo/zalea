@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZALEA — Ecuestre</title>
+  <meta name="description" content="ZALEA — Marca ecuestre premium. Algo extraordinario está por llegar.">
+  <meta name="theme-color" content="#0a0a0a">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ═══════════════ VIDEO BACKGROUND ═══════════════ -->
+  <div class="video-wrapper" id="video-wrapper">
+    <video
+      id="bg-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+    >
+      <source src="zalea ecuestre.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+
+  <!-- ═══════════════ PARTICLES ═══════════════ -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ═══════════════ MAIN CONTENT ═══════════════ -->
+  <main class="hero" id="hero">
+
+    <!-- Decorative corner lines -->
+    <div class="corner-decor corner-tl"></div>
+    <div class="corner-decor corner-tr"></div>
+    <div class="corner-decor corner-bl"></div>
+    <div class="corner-decor corner-br"></div>
+
+    <!-- Logo -->
+    <div class="logo-container" id="logo-container">
+      <img
+        src="Emblema circular Zalea con caballo.png"
+        alt="ZALEA — Emblema ecuestre"
+        class="logo"
+        id="logo"
+      >
+    </div>
+
+    <!-- Brand Name -->
+    <h1 class="brand-name" id="brand-name">
+      <span class="letter" style="--i:0">Z</span>
+      <span class="letter" style="--i:1">A</span>
+      <span class="letter" style="--i:2">L</span>
+      <span class="letter" style="--i:3">E</span>
+      <span class="letter" style="--i:4">A</span>
+    </h1>
+
+    <!-- Tagline -->
+    <p class="tagline" id="tagline">E C U E S T R E</p>
+
+    <!-- Divider -->
+    <div class="divider" id="divider">
+      <span class="divider-line"></span>
+      <span class="divider-diamond"></span>
+      <span class="divider-line"></span>
+    </div>
+
+    <!-- Coming soon -->
+    <p class="coming-soon" id="coming-soon">PRÓXIMAMENTE</p>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
